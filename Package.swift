@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Media_VideoOperations",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Media_VideoOperations-1.0.0-beta+20230316142352.xcframework.zip",
-			checksum: "485586cfa80e2db555cdd9fa32d5ed6bcd1f5f1b71715b7c31aeaf84d154f09c"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Media_VideoOperations-1.0.0-beta+20230316174639.xcframework.zip",
+			checksum: "87470cd7b8b80a3a2635d0970760f49dd5320a7d93eb26e5444857b52b8514e3"
 		)
 	]
 )
