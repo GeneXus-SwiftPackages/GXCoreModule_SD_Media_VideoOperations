@@ -10,19 +10,19 @@ let package = Package(
 			targets: ["GXCoreModule_SD_Media_VideoOperationsWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.0.0-beta.20230614190626")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.0.0-beta.20230615110131")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_Media_VideoOperationsWrapper",
 				dependencies: [
 					"GXCoreModule_SD_Media_VideoOperations",
-					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.watchOS, .tvOS, .iOS]))
+					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.iOS, .watchOS, .tvOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Media_VideoOperations",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Media_VideoOperations-1.0.0-beta.20230614190626.xcframework.zip",
-			checksum: "a925548641b5f29270ae433ba870c43e52da33085314c4af3962af0cfc8f0e79"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Media_VideoOperations-1.0.0-beta.20230615110131.xcframework.zip",
+			checksum: "f0a50a394ff0645769bb38bf6da86e3e63e021270aa5594d820c26eb3bb23dcd"
 		)
 	]
 )
