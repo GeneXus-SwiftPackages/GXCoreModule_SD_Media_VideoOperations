@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_SD_Media_VideoOperationsWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.5.11")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.5.12")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_Media_VideoOperationsWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Media_VideoOperations",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_Media_VideoOperations-1.5.11.xcframework.zip",
-			checksum: "6681172267ecadfd80284eea14ff11bcd5f4a43de1ed5f506696e8085aa0fe8a"
+			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_Media_VideoOperations-1.5.12.xcframework.zip",
+			checksum: "5c6dc58c55d28f7cb672d6cba9db0ab0a4ae864cd570622f58c4958dbe4ab998"
 		)
 	]
 )
